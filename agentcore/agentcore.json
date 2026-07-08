@@ -45,7 +45,17 @@
   "credentials": [],
   "evaluators": [],
   "onlineEvalConfigs": [],
-  "agentCoreGateways": [],
+  "agentCoreGateways": [
+    {
+      "name": "my-gateway",
+      "protocolType": "None",
+      "description": "Gateway for my-gateway",
+      "targets": [],
+      "authorizerType": "NONE",
+      "enableSemanticSearch": true,
+      "exceptionLevel": "NONE"
+    }
+  ],
   "policyEngines": [],
   "configBundles": [],
   "abTests": [],
