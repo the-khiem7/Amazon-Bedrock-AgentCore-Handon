@@ -1,18 +1,16 @@
-{
-  "tools": [
-    {
-      "name": "check_warranty",
-      "description": "Check the warranty status for a product by its product ID. Returns warranty duration, purchase date, expiry date, and whether the warranty is currently active.",
-      "inputSchema": {
-        "type": "object",
-        "properties": {
-          "product_id": {
-            "type": "string",
-            "description": "The product ID to check warranty for (e.g., PROD-001)"
-          }
-        },
-        "required": ["product_id"]
-      }
+[
+  {
+    "name": "check_warranty",
+    "description": "Check the warranty status for a product by its product ID. Returns warranty duration, purchase date, expiry date, and whether the warranty is currently active.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "product_id": {
+          "type": "string",
+          "description": "The product ID to check warranty for (e.g., PROD-001)"
+        }
+      },
+      "required": ["product_id"]
     }
-  ]
-}
+  }
+]
